@@ -11,18 +11,21 @@ h1 {
     font-size: 28pt;
     font-weight: bold;
     color: #FBFFFE;
+    padding: 12px;
 }
 
 h2 {
     font-size: 20pt;
     font-weight: normal;
     color: #FBFFFE;
+    padding: 8px;
 }
 
 p {
     font-size: 12pt;
     font-weight: thin;
     color: #FBFFFE;
+    padding: 8px;
 }
 
 ul {
@@ -32,6 +35,23 @@ ul {
 
 ol {
     color: #FBFFFE;
+}
+
+li {
+    padding: 8px;
+}
+
+li a {
+    text-decoration: none;
+    color: #FBFFFE;
+}
+
+li a:visited {
+    color: darkred;
+}
+
+li a:hover {
+    color: darkorange;
 }
 
 .ingredients {
