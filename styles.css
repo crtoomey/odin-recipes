@@ -18,14 +18,14 @@ h2 {
     font-size: 20pt;
     font-weight: normal;
     color: #FBFFFE;
-    padding: 8px;
+
 }
 
 p {
     font-size: 12pt;
     font-weight: thin;
     color: #FBFFFE;
-    padding: 8px;
+
 }
 
 ul {
@@ -35,10 +35,6 @@ ul {
 
 ol {
     color: #FBFFFE;
-}
-
-li {
-    padding: 8px;
 }
 
 li a {
@@ -54,7 +50,30 @@ li a:hover {
     color: darkorange;
 }
 
-.ingredients {
-    list-style-type: disc;
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
